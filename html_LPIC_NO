@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koble til Din Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate hjelper bedrifter med å integrere sine backend-systemer med vår AI-drevne kundeserviceløsning. Koble til Salesforce, Zendesk, Shopify og mer.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Norsk <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fas fa-check"></i> English</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Español</a>
+          <a href="#" class="active">Norsk</a>
+          <a href="#">Hrvatski</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrasjoner</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Kanaler
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Priser</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blogg</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Logg Inn</a>
+              <a href="#" class="navbar-item btn-primary">Registrer Deg</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  <!-- Channels Section -->
+<section class="channels-hero">
+  <div class="container">
+    <div class="channels-header">
+      <h1>Møt Kundene Dine på <span class="highlight">Alle Kanaler</span></h1>
+      <p class="subtitle">AI-drevet støtte som fungerer på alle plattformer kundene dine bruker</p>
+    </div>
+    
+    <div class="channels-grid">
+      <!-- Available Channels -->
+      <div class="channel-card available">
+        <div class="channel-icon">
+          <img src="https://raw.githubusercontent.com/jose-customate/CustomatePics/fc54e4adf4323d79fb1a0017bf303057f5442cd9/04052025.svg" alt="Nettside Chatbot" width="48" height="48">
+        </div>
+        <h3>Nettside Chatbot</h3>
+        <p>Integrer AI-støtte direkte på nettsiden din for umiddelbar kundehjelp døgnet rundt</p>
+        <span class="status live">Tilgjengelig</span>
+        <button class="learn-more">Lær Mer</button>
+      </div>
+      
+      <div class="channel-card available">
+        <div class="channel-icon whatsapp">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/1018px-WhatsApp_Logo_green.svg.png" alt="WhatsApp" width="48" height="48">
+        </div>
+        <h3>WhatsApp Business</h3>
+        <p>Kommuniser med kunder på WhatsApp med automatiserte AI-samtaler</p>
+        <span class="status live">Tilgjengelig</span>
+        <button class="learn-more">Lær Mer</button>
+      </div>
+      
+      <div class="channel-card available">
+        <div class="channel-icon social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Facebook_Messenger_logo_2025.svg/1024px-Facebook_Messenger_logo_2025.svg.png" alt="Facebook Messenger" width="48" height="48">
+        </div>
+        <h3>Facebook & Instagram</h3>
+        <p>Administrer meldinger på sosiale medier med intelligente AI-svar</p>
+        <span class="status live">Tilgjengelig</span>
+        <button class="learn-more">Lær Mer</button>
+      </div>
+      
+      <!-- Coming Soon Channels -->
+      <div class="channel-card coming-soon">
+        <div class="channel-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="9" width="40" height="30" rx="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 12l20 13 20-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>E-poststøtte</h3>
+        <p>AI-drevne e-postsvar med kontekstbevissthet</p>
+        <span class="status upcoming">Kommer Snart</span>
+      </div>
+      
+      <div class="channel-card coming-soon">
+        <div class="channel-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M43 31.8v5.4c0 1.4-1.6 2.4-2.8 2.4-14 0-25.4-11.5-25.4-25.6C14.8 12.6 15.8 11 17.2 11h5.4c.9 0 1.7.6 1.9 1.5.5 2.2 1.5 4.4 2.8 6.3.8 1 .6 2.4-.3 3.3l-2.2 2.2c1.9 3.6 4.8 6.5 8.4 8.4l2.2-2.2c.9-.9 2.3-1.1 3.3-.3 1.9 1.3 4.1 2.3 6.3 2.8.9.2 1.6 1 1.6 1.9z" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Talestøtte</h3>
+        <p>AI-drevet telefonstøtte med naturlige taleinteraksjoner</p>
+        <span class="status upcoming">Kommer Snart</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Integration Section -->
+<section class="integration-section">
+  <div class="container">
+    <div class="integration-content">
+      <h2>Enhetlig Kundeopplevelse På Tvers Av Alle Kanaler</h2>
+      <p>Vår AI-plattform integreres sømløst med dine eksisterende kundekontaktpunkter, og gir konsistente støtteopplevelser uavhengig av hvordan kunder tar kontakt. Fra nettsidechat til meldinger på sosiale medier, drives hver interaksjon av det samme intelligente systemet som forstår kontekst og leverer personlig assistanse.</p>
+      <div class="feature-highlights">
+        <div class="feature">
+          <div class="feature-icon">✓</div>
+          <div class="feature-text">
+            <h4>Kontekstbevisst</h4>
+            <p>AI forstår samtalehistorikk på tvers av kanaler</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">✓</div>
+          <div class="feature-text">
+            <h4>24/7 Tilgjengelighet</h4>
+            <p>Umiddelbare svar døgnet rundt</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">✓</div>
+          <div class="feature-text">
+            <h4>Flerspråklig</h4>
+            <p>Støtte på over 50 språk</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta-buttons">
+        <button class="primary-button">Start Gratis Prøveperiode</button>
+        <button class="secondary-button">Bestill Demo</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="footer-logo" />
+            <p>Automatiser Kundeservice</p>
+          </div>
+        </div>
+        
+        <div class="bottom-bar">
+          <div class="links">
+            <a href="https://www.customate.ai/imprint" target="_blank">Impressum</a>
+            <a href="https://www.customate.ai/tac" target="_blank">Vilkår og Betingelser</a>
+            <a href="https://www.customate.ai/datause" target="_blank">Databruk</a>
+            <a href="#contact" class="contactLink">Kontakt oss</a>
+          </div>
+          <strong>
+            <a href="#feedback" class="feedback">Tilbakemelding</a>
+          </strong>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Vi Verdsetter Din Tilbakemelding</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <p>Hjelp oss å forbedre produktet vårt — hva kan vi gjøre bedre? Fortell oss også om eventuelle kundeserviceutfordringer du står overfor i din bedrift.</p>
+          <textarea id="feedbackInput" placeholder="Din tilbakemelding her..."></textarea>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelFeedback">Avbryt</button>
+          <button class="btn-primary" id="sendFeedback">Send Tilbakemelding</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Kontakt Vårt Team</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="contactName">Navn</label>
+            <input type="text" id="contactName" placeholder="Ditt navn">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">E-post</label>
+            <input type="email" id="contactEmail" placeholder="din@epost.com">
+          </div>
+          <div class="form-group">
+            <label for="contactInput">Melding</label>
+            <textarea id="contactInput" placeholder="Hvordan kan vi hjelpe deg?"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelContact">Avbryt</button>
+          <button class="btn-primary" id="sendContact">Send Melding</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
